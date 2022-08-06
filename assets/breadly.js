@@ -41,8 +41,8 @@ function getTodaysDate() {
 //   get current time
 function getCurrentTime() {
     const d = new Date();
-    const hours = d.getHours();
-    const minutes = d.getMinutes();
+    var hours = d.getHours();
+    var minutes = d.getMinutes();
     if (minutes < 10) {
         minutes = "0" + minutes;
     }
